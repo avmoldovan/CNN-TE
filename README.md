@@ -1,2 +1,2 @@
 # CNN-TE
-Running relies on <code>run_main.py</code>.
+Running relies on <code>run_main.py</code>. However, edit this file and specify which dataset you want to run by uncommenting the required key (that is identical with the root key in the <code>RunConfig.py</code> file) at the beginning of the file, just after the imports. This will download the dataset specified by the key. It will also generate a best mode .pth file and also a checkpoint model in the same path as the <code>run_main.py</code>.
